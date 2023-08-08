@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const UserContainer = styled.div`
   display: flex;
   padding: 6.4rem;
+  justify-content: space-between;
 `;
 
 export const UserTitle = styled.h1`
@@ -23,4 +24,5 @@ export const UserInfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+  width: 55rem;
 `;
