@@ -9,6 +9,13 @@ export const HeaderContainer = styled.div`
   padding: 0 6.4rem;
   background-color: #eee;
   height: 6rem;
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+    gap: 2rem;
+    height: max-content;
+    padding: 1rem;
+  }
 `;
 
 export const HeaderTitle = styled.h1`

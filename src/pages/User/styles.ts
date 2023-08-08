@@ -4,6 +4,11 @@ export const UserContainer = styled.div`
   display: flex;
   padding: 6.4rem;
   justify-content: space-between;
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+    gap: 4rem;
+  }
 `;
 
 export const UserTitle = styled.h1`
@@ -25,4 +30,8 @@ export const UserInfoContainer = styled.div`
   flex-direction: column;
   gap: 3.2rem;
   width: 55rem;
+
+  @media (max-width: 850px) {
+    width: 100%;
+  }
 `;

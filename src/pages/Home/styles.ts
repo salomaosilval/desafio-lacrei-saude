@@ -4,10 +4,18 @@ export const HomeContainer = styled.div`
   display: flex;
   padding: 6.4rem;
   justify-content: space-between;
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+  }
 `;
 
 export const HomeContent = styled.div`
   width: 45.3rem;
+
+  @media (max-width: 850px) {
+    width: 100%;
+  }
 `;
 
 export const HomeTitle = styled.h1`
@@ -27,6 +35,12 @@ export const HomeDesc = styled.p`
 export const ButtonsContainer = styled.div`
   display: flex;
   gap: 6.9rem;
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
 `;
 
 export const PrimaryButton = styled.button`
